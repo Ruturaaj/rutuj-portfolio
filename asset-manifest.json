@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/rutuj-portfolio/static/css/main.59a0cb81.css",
+    "main.js": "/rutuj-portfolio/static/js/main.913fea70.js",
+    "static/js/453.f4fbaa6d.chunk.js": "/rutuj-portfolio/static/js/453.f4fbaa6d.chunk.js",
+    "static/media/RCOEM.pdf": "/rutuj-portfolio/static/media/RCOEM.00ed64d5cd59f5a56422.pdf",
+    "static/media/CYBER.pdf": "/rutuj-portfolio/static/media/CYBER.8f0dcf10d9a4f774b5a1.pdf",
+    "static/media/CISCO.pdf": "/rutuj-portfolio/static/media/CISCO.e49208e411ccc9acd269.pdf",
+    "static/media/NPTEL.pdf": "/rutuj-portfolio/static/media/NPTEL.6ec2f1e0a185ed34f5eb.pdf",
+    "static/media/rutuj.png": "/rutuj-portfolio/static/media/rutuj.f6dda6be15af86d22b77.png",
+    "static/media/FORAGE.pdf": "/rutuj-portfolio/static/media/FORAGE.ac6c457c1ee708cee2bf.pdf",
+    "static/media/Microsoft.pdf": "/rutuj-portfolio/static/media/Microsoft.5242621d53b815d96f50.pdf",
+    "static/media/VNIT.pdf": "/rutuj-portfolio/static/media/VNIT.ff7376b5d9faa2cdd84a.pdf",
+    "static/media/rutuj1.jpg": "/rutuj-portfolio/static/media/rutuj1.f1767955f0663f564a50.jpg",
+    "index.html": "/rutuj-portfolio/index.html",
+    "main.59a0cb81.css.map": "/rutuj-portfolio/static/css/main.59a0cb81.css.map",
+    "main.913fea70.js.map": "/rutuj-portfolio/static/js/main.913fea70.js.map",
+    "453.f4fbaa6d.chunk.js.map": "/rutuj-portfolio/static/js/453.f4fbaa6d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59a0cb81.css",
+    "static/js/main.913fea70.js"
+  ]
+}
