@@ -1,0 +1,123 @@
+.certificates {
+  background-color: #030637; /* Dark background for contrast */
+  padding: 4rem 0;
+  color: #FFEDD8; /* Light text color */
+}
+
+/* Section title styles */
+.section-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-title h2 {
+  font-size: 2.5rem;
+  color: #EABE6C; /* Highlighted color for the title */
+}
+
+/* Certificates content layout */
+.certificates-content {
+  max-width: 900px; /* Center align content */
+  margin: 0 auto; /* Center the section */
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; /* Space between certificate items */
+}
+
+/* Individual certificate item styles */
+.certificate-item {
+  background-color: #3C0753; /* Dark color for certificate items */
+  border: 1px solid #891652; /* Border using highlight color */
+  border-radius: 8px; /* Rounded corners */
+  padding: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  transition: transform 0.2s; /* Smooth transition on hover */
+}
+
+.certificate-item:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+/* Certificate title styles */
+.certificate-item h4 {
+  font-size: 1.8rem; /* Larger title size */
+  color: #EABE6C; /* Highlighted color for certificate titles */
+  margin-bottom: 1rem; /* Space below the title */
+}
+
+/* Certificate description styles */
+.certificate-item p {
+  font-size: 1rem; /* Regular size for text */
+  color: #FFEDD8; /* Light color for text */
+  margin-bottom: 1rem; /* Space below the description */
+}
+
+/* Specific styling for the description when shown */
+.certificate-description {
+  margin-top: 0.5rem; /* Space above the description */
+  font-size: 0.9rem; /* Font size for description */
+  color: #EABE6C; /* Description text color */
+  line-height: 1.5; /* Improved line height for readability */
+  padding: 0.5rem 1rem; /* Padding for better spacing */
+  background-color: rgba(234, 190, 108, 0.1); /* Light background for the description */
+  border-left: 4px solid #EABE6C; /* Accent border on the left */
+}
+
+/* Links and button container */
+.certificate-links {
+  display: flex; /* Flex container for links */
+  gap: 1rem; /* Space between link and button */
+  margin-top: 0.5rem; /* Space above the link section */
+}
+
+.certificate-item a {
+  color: #EABE6C; /* Link color matching navbar */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.certificate-item a:hover {
+  color: #F2E5BF; /* Hover color for links */
+}
+
+/* Styles for Details button */
+.details-button {
+  padding: 0.5rem 1rem; /* Button padding */
+  background-color: #720455; /* Button background color */
+  color: #FFEDD8; /* Button text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.details-button:hover {
+  background-color: #3C0753; /* Darker background on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .section-title h2 {
+    font-size: 2rem; /* Smaller title on mobile */
+  }
+
+  .certificate-item h4 {
+    font-size: 1.5rem; /* Smaller project titles */
+  }
+
+  .certificate-item p {
+    font-size: 0.9rem; /* Smaller descriptions */
+  }
+}
+
+@media (max-width: 480px) {
+  .certificate-item h4 {
+    font-size: 1.3rem; /* Even smaller titles for small devices */
+  }
+
+  .certificate-item p {
+    font-size: 0.85rem; /* Smaller descriptions */
+  }
+}

@@ -1,0 +1,93 @@
+/* Navbar styles */
+.navbar {
+  background-color: #030637; /* Dark background for the navbar */
+  padding: 1rem 10px; /* Add horizontal padding */
+  position: sticky; /* Keeps navbar fixed at the top */
+  top: 0;
+  z-index: 1000; /* Ensures navbar is above other content */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between heading and nav items */
+  align-items: center; /* Center items vertically */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.navbar-heading h1 {
+  color: #EABE6C; /* Change heading color */
+  margin: 0;
+  font-size: 2rem; /* Increase font size for the heading */
+  transition: color 0.3s; /* Smooth transition for hover effects */
+}
+
+.nav {
+  list-style: none;
+  display: flex; /* Flex for nav items */
+  padding: 0;
+  margin: 0;
+}
+
+.nav-button {
+  background: none; /* No background for buttons */
+  border: none; /* No border */
+  color: #FFEDD8; /* Text color */
+  cursor: pointer; /* Pointer cursor for buttons */
+  font-size: 1rem; /* Font size for button text */
+  display: flex; /* Flex for icons and text */
+  align-items: center; /* Center align items vertically */
+  margin-left: 1rem; /* Space between buttons */
+  padding: 0.5rem 1rem; /* Padding for button */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+}
+
+.nav-button:hover {
+  background-color: #3C0753; /* Darker background on hover */
+  color: #EABE6C; /* Change color on hover */
+}
+
+.nav-button.active {
+  background-color: #720455; /* Active button background */
+  color: #F2E5BF; /* Color for the active button */
+  font-weight: bold; /* Make active button bold */
+}
+
+.nav-button span {
+  margin-left: 8px; /* Space between icon and text */
+}
+/* Existing Navbar styles remain unchanged */
+
+/* Hamburger Menu Icon */
+.menu-icon {
+  display: none; /* Hide by default */
+  font-size: 1.5rem; /* Icon size */
+  color: #EABE6C; /* Icon color */
+  cursor: pointer; /* Pointer cursor */
+}
+
+/* Show the menu icon on small screens */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block; /* Show icon on small screens */
+  }
+
+  .nav {
+    display: none; /* Hide nav by default on small screens */
+    flex-direction: column; /* Stack items vertically */
+    width: 100%; /* Full width */
+    background-color: #030637; /* Match navbar background */
+    position: absolute; /* Position absolute */
+    top: 100%; /* Position below the navbar */
+    left: 0; /* Align to the left */
+    z-index: 1000; /* Ensure above other content */
+  }
+
+  .nav.active {
+    display: flex; /* Show nav when active */
+  }
+
+  .nav-button {
+    width: 100%; /* Full width buttons */
+    text-align: center; /* Center align text */
+    border-radius: 0; /* Remove rounded corners on small screens */
+  }
+}

@@ -1,0 +1,86 @@
+.education {
+  padding: 4rem 0; /* Match project section padding */
+  background-color: #030637; /* Background color */
+  color: #FFEDD8; /* Change text color for consistency */
+}
+
+/* Section title styles */
+.section-title {
+  text-align: center;
+  margin-bottom: 2rem; /* Match project section margin */
+}
+
+.section-title h2 {
+  font-size: 2.5rem; /* Match project section title size */
+  color: #EABE6C; /* Highlighted color for the title */
+}
+
+/* Education content layout */
+.education-content {
+  max-width: 900px; /* Match project content max-width */
+  margin: 0 auto; /* Center content */
+  padding: 0 1rem; /* Match padding */
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  gap: 2rem; /* Space between education items */
+}
+
+/* Individual education item styles */
+.education-box {
+  background-color: #240A34; /* Dark color for education items */
+  border: 1px solid #891652; /* Border using highlight color */
+  border-radius: 8px; /* Rounded corners */
+  padding: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  transition: transform 0.2s; /* Smooth transition on hover */
+}
+
+.education-box:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+/* Education title styles */
+.box h4 {
+  font-size: 1.8rem; /* Match project titles */
+  color: #EABE6C; /* Highlighted color for education titles */
+  margin-bottom: 1rem; /* Spacing */
+}
+
+/* Divider line styles */
+hr {
+  border: 0; /* Remove default border */
+  height: 1px; /* Line height */
+  background: #910A67; /* Line color */
+  margin: 20px 0; /* Spacing around line */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .section-title h2 {
+    font-size: 2rem; /* Smaller title on mobile */
+  }
+
+  .box h4 {
+    font-size: 1.5rem; /* Smaller education titles */
+  }
+
+  .education-box {
+    max-width: 100%; /* Remove max width for small screens */
+    margin: 10px; /* Margin for spacing between boxes */
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title h2 {
+    font-size: 1.5rem; /* Further reduce title size for mobile */
+  }
+
+  .box h4 {
+    font-size: 1.3rem; /* Further reduce box title size */
+  }
+
+  .education-box {
+    padding: 1rem; /* Reduced padding for smaller screens */
+    margin: 5px; /* Smaller margins for small screens */
+  }
+}

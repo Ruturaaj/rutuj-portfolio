@@ -1,0 +1,132 @@
+/* Home section container */
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0;
+  background-color: #030637;
+  color: #FFEDD8;
+}
+
+/* Container for alignment */
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Home content layout */
+.home-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+/* Home info text */
+.home-info {
+  max-width: 600px;
+  padding-right: 2rem;
+}
+
+.hello {
+  font-size: 2.5rem;
+  color: #EABE6C;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 1rem;
+}
+
+.name {
+  font-weight: bold;
+  color: #FFEDD8;
+}
+
+.my-profession {
+  font-size: 2rem;
+  color: #EABE6C;
+  margin-bottom: 1.5rem;
+}
+
+.typing {
+  font-weight: bold;
+  color: #FFEDD8;
+}
+
+/* Description text */
+.home-description {
+  font-size: 1.1rem;
+  color: #FFEDD8;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+/* Download CV button */
+.btn {
+  background-color: #720455;
+  color: #FFFFFF;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #891652;
+}
+
+/* Home image */
+.home-img img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+  width: 300px;
+  height: auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1), 0 0 30px rgba(255, 255, 255, 0.5); /* Added backlight effect */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.home-img img:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 0 50px rgba(255, 255, 255, 0.8); /* Enhance the effect on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-info {
+    text-align: center;
+    padding-right: 0;
+  }
+
+  .home-img img {
+    margin-top: 2rem;
+    width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hello {
+    font-size: 2rem;
+  }
+
+  .my-profession {
+    font-size: 1.8rem;
+  }
+
+  .home-description {
+    font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 0.5rem 1.5rem;
+  }
+}

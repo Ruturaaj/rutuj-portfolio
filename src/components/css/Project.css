@@ -1,0 +1,108 @@
+.project {
+  background-color: #030637; /* Dark background for contrast */
+  padding: 4rem 0;
+  color: #FFEDD8; /* Light text color */
+}
+
+/* Section title styles */
+.section-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-title h2 {
+  font-size: 2.5rem;
+  color: #EABE6C; /* Highlighted color for the title */
+}
+
+/* Project content layout */
+.project-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; /* Space between project items */
+}
+
+/* Individual project item styles */
+.project-item {
+  background-color: #240A34; /* Dark color for project items */
+  border: 1px solid #891652; /* Border using highlight color */
+  border-radius: 8px; /* Rounded corners */
+  padding: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Slightly darker shadow for depth */
+  transition: transform 0.2s; /* Smooth transition on hover */
+}
+
+.project-item:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+/* Project title styles */
+.project-title {
+  font-size: 1.8rem;
+  color: #EABE6C; /* Highlighted color for project titles */
+  margin-bottom: 1rem;
+}
+
+/* Project description styles */
+.project-description {
+  font-size: 1rem;
+  color: #FFEDD8; /* Light color for text */
+  margin-bottom: 1rem;
+}
+
+/* Technology stack styles */
+.tech-stack {
+  margin-top: 1rem;
+}
+
+.tech-list {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0;
+}
+
+.tech-item {
+  display: inline-block;
+  background-color: #FD8B51; /* Orange from the palette */
+  color: white; /* White text for contrast */
+  border-radius: 5px; /* Rounded corners for tags */
+  padding: 0.5rem 1rem; /* Padding for tags */
+  margin-right: 0.5rem; /* Spacing between tags */
+  font-size: 0.9rem; /* Font size for tags */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .section-title h2 {
+    font-size: 2rem; /* Smaller title on mobile */
+  }
+
+  .project-title {
+    font-size: 1.5rem; /* Smaller project titles */
+  }
+
+  .project-description {
+    font-size: 0.9rem; /* Smaller descriptions */
+  }
+
+  .tech-item {
+    font-size: 0.8rem; /* Smaller tech tags */
+  }
+}
+
+@media (max-width: 480px) {
+  .project-title {
+    font-size: 1.3rem; /* Even smaller titles for small devices */
+  }
+
+  .project-description {
+    font-size: 0.85rem; /* Smaller descriptions */
+  }
+
+  .tech-item {
+    padding: 0.4rem 0.8rem; /* Smaller padding for tech tags */
+    font-size: 0.7rem; /* Smaller tech tags */
+  }
+}

@@ -1,0 +1,36 @@
+.header {
+  background-color: #240A34; /* Dark background color */
+  color: #FFEDD8; /* Light text color for contrast */
+  padding: 100px 20px;
+  text-align: center;
+  position: relative;
+  min-height: 300px; /* Adjust height for better visual impact */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content {
+  max-width: 800px; /* Limit content width for readability */
+  margin: 0 auto;
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #EABE6C; /* Highlight the title with gold-like color */
+  font-family: 'Arial', sans-serif;
+  letter-spacing: 2px;
+}
+
+.header p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #FFEDD8;
+  font-family: 'Verdana', sans-serif;
+}
+
+/* Add a subtle shadow to the header content */
+.header-content h1, .header-content p {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
