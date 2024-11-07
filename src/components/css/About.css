@@ -1,7 +1,7 @@
 .about {
   padding: 60px 20px;
   background-color: #030637;
-  border-radius: 10px;
+  border-radius: 0; /* Removed the curves */
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   color: #FFEDD8;
   overflow: hidden;
@@ -26,17 +26,17 @@
   background-image: url('../../assets/rutuj1.jpg');
   background-size: cover;
   background-position: center;
-  height: 320px; /* Slightly increased height */
-  width: 320px; /* Slightly increased width */
-  border-radius: 50%;
+  height: 320px;
+  width: 320px;
+  border-radius: 50%; /* Keeping the circular shape for the image */
   margin-bottom: 20px;
   border: 4px solid #891652;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
-  transition: transform 0.3s ease; /* Add smooth hover effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
 }
 
 .img:hover {
-  transform: scale(1.05); /* Slight zoom on hover for an interactive feel */
+  transform: scale(1.05);
 }
 
 .highlight {
@@ -60,7 +60,7 @@
 
 .icon:hover {
   color: #EABE6C;
-  transform: scale(1.2); /* Enlarge icons slightly on hover */
+  transform: scale(1.2);
 }
 
 /* Responsive styles */
@@ -71,12 +71,12 @@
 
   .info {
     max-width: 700px;
-    margin-left: 40px; /* Increase space between image and text */
+    margin-left: 40px;
     text-align: left;
   }
 
   .img {
-    height: 360px; /* Increased size for larger screens */
+    height: 360px;
     width: 360px;
   }
 
@@ -96,9 +96,9 @@
   }
 
   .img {
-    height: 260px; /* Adjusted size for smaller screens */
+    height: 260px;
     width: 260px;
-    margin-bottom: 30px; /* Increase margin for better spacing on small screens */
+    margin-bottom: 30px;
   }
 
   .about {
